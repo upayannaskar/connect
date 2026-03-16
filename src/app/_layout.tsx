@@ -14,8 +14,8 @@ export default function RootLayout() {
   return (
     <ClerkProvider publishableKey={publishableKey} tokenCache={tokenCache}>
       <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="index" options={{ title: "Virat Kohli" }} />
-        <Stack.Screen name="about" options={{ title: "About Virat Kohli" }} />
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="(auth)" />
       </Stack>
     </ClerkProvider>
   );
